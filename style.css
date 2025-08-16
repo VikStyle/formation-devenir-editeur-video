@@ -167,7 +167,6 @@ body {
   height: 100%;
   border: none;
   border-radius: 6px;
-  display: none;
 }
 
 /* ==================== SECTION MODULES EN PLEINE LARGEUR ==================== */
@@ -231,8 +230,13 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: none; /* activer si image dispo */
+  display: block;
 }
+
+.image-placeholder {
+  display: none; /* disparaît dès que l'image est là */
+}
+
 
 /* Titre en overlay (clair, sans dégradé noir) */
 .module-content {
