@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Module 2</title>
+
+  <!-- Lien vers la feuille CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./flavicon-logo site.png" />
+</head>
+<body>
+
+  <!-- Sidebar fixe à gauche -->
+  <nav class="sidebar">
+  <h2 class="sidebar-title">Modules de formation</h2>
+  <ul>
+    <!-- Remplace les href par les URLs de tes modules -->
+    <li><a href="../01 Module 1/index.html">Module 1</a></li>
+    <li><a href="../02 Module 2/index.html" class="active">Module 2</a></li>
+    <li><a href="../03 Module 3/index.html">Module 3</a></li>
+    <li><a href="../04 Module 4/index.html">Module 4</a></li>
+    <li><a href="../05 Module 5/index.html">Module 5</a></li>
+    <li><a href="../06 Module 6/index.html">Module 6</a></li>
+    <li><a href="../07 Module 7/index.html">Module 7</a></li>
+    <li><a href="../08 Module 8/index.html">Module 8</a></li>
+    <li><a href="../09 Module 9/index.html">Module 9</a></li>
+    <li><a href="../10 Module 10/index.html">Module 10</a></li>
+  </ul>
+</nav>
+
+  <!-- Contenu principal -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- En-tête -->
+      <header class="header card">
+        <h1>Module 2 - Mon Parcours</h1>
+        <p class="small">Ce que (presque) personne n'explique : l'évolution d'une chaîne YouTube, pas à pas.</p>
+        <div style="margin-top:8px">
+          <a class="btn btn-ghost" href="../index.html">⬅ Retour au sommaire</a>
+        </div>
+      </header>
+
+      <section class="contenu">
+        <h2>Dans ce module, tu vas découvrir :</h2>
+        <ul>
+          <li>Le commencement : mes premiers pas sur YouTube et CapCut</li>
+          <li>L’objectif des 4 000 heures de visionnage : pourquoi c’est essentiel</li>
+          <li>Les hauts et les bas : les succès et les défis rencontrés</li>
+          <li>L’objectif des 10 000 abonnés : atteindre la crédibilité et la visibilité</li>
+          <li>La monétisation : comment et quand elle a été débloquée</li>
+          <li>Mode passif activé : générer des revenus et de l’impact sans effort constant</li>
+        </ul>
+
+
+      </section>
+
+      <!-- Section vidéo -->
+      <section class="video-section">
+        <h2>Vidéo</h2>
+        <p class="small info-video">Cette vidéo contient plusieurs chapitres correspondant aux différentes parties de ce module.</p>
+
+        <div class="video-container card">
+          <iframe
+            src="https://www.youtube.com/embed/8xKaYdjoWjY"
+            title="Vidéo module 1"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+
+      <!-- Blocs ressources et astuce côte à côte -->
+      <section class="info-blocks">
+        <div class="card resource-block">
+          <h3>📁 Ressource à télécharger</h3>
+          <ul class="resource-list">
+            <li>
+              <a href="https://drive.google.com/uc?export=download&id=1Yl42YAgmW273w1W15WgTwZ46eC8qpwIi" target="_blank" download>
+                Le Guide stratégique exclusif - PDF
+              </a>
+              <p class="small">Ce module correspond aux pages <strong>5 à 6</strong> du <strong>guide stratégique</strong>.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card tip-block">
+          <h3>Commentaire</h3>
+          <p class="small">
+            🔥 Bravo, vous avez terminé le module 2 ! Cliquez sur le bouton vert pour valider cette étape et foncez vers le module 3 (on attaque les choses sérieuses).
+          </p>
+        </div>
+      </section>
+
+      <!-- Bouton marquer terminé -->
+      <section class="completion-section">
+        <button class="btn btn-primary" onclick="markComplete(1)">Marquer comme terminé</button>
+      </section>
+
+      <!-- Pied de page -->
+      <footer class="footer small">© Module 2 - Devenir Editeur Vidéo</footer>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
